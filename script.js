@@ -1,4 +1,4 @@
-// ------  Mobile menu configuration -------
+// ------  Mobile menu functionality -------
 
 let hamburgerMenu = document.querySelector(".fa-bars");
 let mobileNav = document.querySelector(".mobile_nav");
