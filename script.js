@@ -16,3 +16,15 @@ listItems.forEach(item => {
         mobileNav.classList.toggle("mobile_nav_open");
     })
 });
+
+// navbar scroll
+
+let navbar = document.querySelector(".navbar");
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 10) {
+        navbar.style.background = "rgb(221, 218, 218)"
+    } else {
+        navbar.style.background = "none"
+    }
+})

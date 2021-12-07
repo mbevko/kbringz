@@ -24,6 +24,8 @@ body {
 .navbar {
     position: fixed;
     width: 100vw;
+    transition: .3s;
+    z-index: 5;
 }
 
 /* background:rgb(221, 218, 218); */
@@ -195,6 +197,7 @@ li a {
     height: 140px;
     background: #EDE1E1;
     z-index: 1;
+    opacity: .9
 }
 
 /* --------------------------------- Contact ---------------------------------*/
@@ -202,11 +205,11 @@ li a {
 .contact_section {
     display: flex;
     background: #F9EED4;
-    height: 284px;
+    height: 400px;
     width: 100vw;
     margin-top: 150px;
     padding-top: 50px;
-    
+    margin-bottom: 0;
 }
 
 .con_content {
@@ -266,12 +269,48 @@ form {
     line-height: 9px;
     color: #5B5858;
     margin-bottom: 15px;
+    outline: none;
 }
 
 input::placeholder {
     color: #5B5858;
 }
 
-text-area {
-    border-bottom: solid 2px;
+textarea {
+    border-bottom: solid #6e6b6b 2px;
+    margin-top: 20px;
+}
+
+textarea::placeholder {
+    color: #4d4b4b;
+}
+
+.submit_btn {
+    background: none;
+    border: solid black 1px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.submit_btn:hover {
+    background: black;
+    color: silver;
+}
+
+/* --------------------------------- Footer ---------------------------------*/
+
+footer {
+    background: rgb(68, 68, 68);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: rgb(221, 220, 220);
+    font-size: 6pt;
+    padding: 0;
+    
 }
