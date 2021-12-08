@@ -29,7 +29,7 @@ body {
     z-index: 5;
 }
 
-/* background:rgb(221, 218, 218); */
+
 
 .header_logo {
     width: 100px;
@@ -160,6 +160,7 @@ li a {
     width: 200px;
     height: 200px;
     background: rgb(99, 64, 64);
+    box-shadow: 2px 2px 8px 2px grey;
 }
 
 @media (max-width: 700px) {
