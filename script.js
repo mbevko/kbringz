@@ -23,7 +23,7 @@ let navbar = document.querySelector(".navbar");
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > 10) {
-        navbar.style.background = "rgb(221, 218, 218)"
+        navbar.style.background = "rgb(236, 238, 241)"
     } else {
         navbar.style.background = "none"
     }
