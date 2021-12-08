@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -238,7 +239,6 @@ li a {
     display: flex;
     background: #F9EED4;
     height: 400px;
-    width: 100vw;
     margin-top: 150px;
     padding-top: 50px;
     margin-bottom: 0;
@@ -313,6 +313,11 @@ form {
         margin: 0;
         padding: 0;
         width: 300px;
+    }
+
+    textarea {
+        height: 25px;
+        padding-top: 40px;
     }
 
     .contact_right {

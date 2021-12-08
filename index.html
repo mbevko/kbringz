@@ -13,60 +13,86 @@
 </head>
 <body>
    
+
+
+
     <i class="fas fa-bars"></i>
     <p class="logo">KBR</p>
     <nav class="navbar">
         <ul>            
-            <li><a href="#">HOME</li></a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</li></a></li>
+            <li><a href="#products">PRODUCTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
     <nav class="mobile_nav">
         <ul class="mobile_nav_list" >            
-            <li><a href="#">HOME</li></a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</li></a></li>
+            <li><a href="#products">PRODUCTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
+
+
+
+
     <section class="main_content">
+
+        <a id="products">
         <article class="product_section">
             <div class="product one"></div>
             <div class="product two"></div>
             <div class="product three"></div>
         </article>
+        </a>
+        
+
+
+
+
         <article class="about_section">
-            
-            <div class="about_content">
-                <h2 class="about_heading">WHERE IT ALL BEGAN</h2>
-                <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aut tempora numquam ducimus, nobis debitis velit, molestias impedit nam mollitia quasi quaerat possimus odio excepturi vitae iste adipisci magni! Quis!</p>
-            </div>
-        </article>
-        <article class="contact_section">
-            <div class="con_content contact_left">
-                <div class="contact_par">
-                    <p class="cont_p_one">Contact us for more information</p>
-                    <p class="cont_p_two">Need help deciding on a style? Email us and we'll contact you right back.</p>
-                    <a href=""><i class="fab fa-instagram"></i></a>
+            <a id="about">    
+                <div class="about_content">
+                    <h2 class="about_heading">WHERE IT ALL BEGAN</h2>
+                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aut tempora numquam ducimus, nobis debitis velit, molestias impedit nam mollitia quasi quaerat possimus odio excepturi vitae iste adipisci magni! Quis!</p>
                 </div>
-            </div>
-            <div class="con_content contact_right">
-                <form  action="POST" data-netlify="true">
-                    <input type ="text" name="firstName" class="form_input" placeholder="NAME" required>
-                    <input name="email" type="email" class="form_email form_input" placeholder="EMAIL" required>
-                    <textarea name="message" class="message form_input" rows="1" placeholder="MESSAGE"></textarea>
-                    <input type="submit" value="Submit" class="submit_btn">
-                    <div class="field">
-                    <div data-netlify-recaptcha="true"></div>
-                    </div>
-                  </form>
-            </div>
+            </a>
         </article>
+
+
+
+        
+        <a id="contact">
+            <article class="contact_section">
+                <div class="con_content contact_left">
+                    <div class="contact_par">
+                        <p class="cont_p_one">Contact us for more information</p>
+                        <p class="cont_p_two">Need help deciding on a style? Email us and we'll contact you right back.</p>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="con_content contact_right">
+                    <form  action="POST" data-netlify="true">
+                        <input type ="text" name="firstName" class="form_input" placeholder="NAME" required>
+                        <input name="email" type="email" class="form_email form_input" placeholder="EMAIL" required>
+                        <textarea name="message" class="message form_input" rows="1" placeholder="MESSAGE"></textarea>
+                        <input type="submit" value="Submit" class="submit_btn">
+                        <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </a>    
+
     </section>
+
+
+
     <footer>
-        <p>© 2020 KBRINGZ all rights reserved.</p>
+        <p>© 2022 KBRINGZ all rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
